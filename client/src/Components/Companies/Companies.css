@@ -1,0 +1,29 @@
+.c-container {
+    justify-content: space-around;
+    gap: 8rem;
+}
+
+.c-container img {
+    width: 10rem;
+}
+
+.c-container .des {
+    align-items: center;
+    text-align: center;
+}
+
+.c-container span {
+    color: var(--black-color);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .c-container {
+        display: inline;
+    }
+
+    .c-container .des img {
+        width: 15rem;
+    }
+}

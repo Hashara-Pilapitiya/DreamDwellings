@@ -1,0 +1,141 @@
+[
+    {
+        "name": " Cozy Haven",
+        "price": "2000",
+        "detail": "A charming cottage-style home with a fireplace and a beautiful lush backyard garden.",
+        "image": "./Residency/house01.avif" 
+    },
+
+    {
+        "name": " Serene Retreat",
+        "price": "2500",
+        "detail": " Modern architecture meets tranquility in this sleek, minimalist home with panoramic views.",
+        "image": "./Residency/house02.avif"
+    },
+
+    {
+        "name": " Sunflower Villa",
+        "price": "1500",
+        "detail": "A vibrant, sunlit residence surrounded by fields of sunflowers and a bubbling brook.",
+        "image": "./Residency/villa01.avif"
+    },
+
+    {
+        "name": "Vista Manor",
+        "price": "2100",
+        "detail": "Nestled against the mountains, this spacious manor offers breathtaking views of the peaks.",
+        "image": "./Residency/house03.jpg"
+    },
+
+    {
+        "name": "Ocean Breeze",
+        "price": "2300",
+        "detail": " A beachfront paradise with a private deck, offering the soothing sounds of waves and ocean breeze.",
+        "image": "./Residency/house04.avif"
+    },
+
+    {
+        "name": "Forest Cottage",
+        "price": "1000",
+        "detail": "A fairy-tale cottage surrounded by an enchanted forest, perfect for nature lovers.",
+        "image": "./Residency/villa02.avif"
+    },
+
+    {
+        "name": "Urban Oasis Loft",
+        "price": "1400",
+        "detail": "A stylish loft in the heart of the city, combining modern living with urban convenience.",
+        "image": "./Residency/house06.avif"
+    },
+
+    {
+        "name": "Riverside Lodge",
+        "price": "2100",
+        "detail": "A classic lodge by the riverbank, offering a rustic escape with fishing and boating opportunities.",
+        "image": "./Residency/house07.avif"
+    },
+
+    {
+        "name": "Skyline Penthouse",
+        "price": "1600",
+        "detail": "A penthouse in the clouds, boasting panoramic city views and modern, upscale amenities.",
+        "image": "./Residency/house08.avif"
+    },
+
+    {
+        "name": "Desert Mirage Villa",
+        "price": "2400",
+        "detail": " A luxurious oasis in the desert, complete with a pool and stunning views of the arid landscape.",
+        "image": "./Residency/villa03.avif"
+    },
+
+    {
+        "name": "Secret Manor",
+        "price": "1000",
+        "detail": "A historic manor with a hidden garden, featuring centuries-old trees and a koi pond.",
+        "image": "./Residency/house09.avif"
+    },
+
+    {
+        "name": "Coral Cove Cottage",
+        "price": "2100",
+        "detail": " A beachside cottage with coral accents, offering a cozy retreat near the turquoise waters.",
+        "image": "./Residency/house10.avif"
+    },
+
+    {
+        "name": "Chalet Retreat",
+        "price": "2300",
+        "detail": "A traditional Swiss chalet nestled in the alpine meadows, perfect for a winter escape.",
+        "image": "./Residency/house11.avif"
+    },
+
+    {
+        "name": " Moonlit Mansion",
+        "price": "2600",
+        "detail": " A grand mansion with a landscaped garden, illuminated by the soft glow of moonlight.",
+        "image": "./Residency/house12.avif"
+    },
+
+    {
+        "name": " Lakeside Serenity",
+        "price": "2100",
+        "detail": "A peaceful lakeside home surrounded by lush greenery, offering a serene escape.",
+        "image": "./Residency/villa04.avif"
+    },
+
+    {
+        "name": " Sakura Villa",
+        "price": "2000",
+        "detail": "A Japanese-inspired villa with a cherry blossom garden, creating a tranquil atmosphere.",
+        "image": "./Residency/villa05.avif"
+    },
+
+    {
+        "name": " Mystic Manor",
+        "price": "2500",
+        "detail": "A mysterious manor with hidden chambers and a captivating air of mystique.",
+        "image": "./Residency/villa06.avif"
+    },
+
+    {
+        "name": "Sunset Ridge Cabin",
+        "price": "1000",
+        "detail": "A cozy cabin perched on a ridge, providing stunning views of the sunset over the valley.",
+        "image": "./Residency/villa07.avif"
+    },
+
+    {
+        "name": "City Light",
+        "price": "2200",
+        "detail": "An elegant apartment with floor-to-ceiling windows, offering a dazzling view of city lights.",
+        "image": "./Residency/villa08.avif"
+    },
+
+    {
+        "name": "Maplewood Secret House",
+        "price": "2500",
+        "detail": "A classic mansion surrounded by a maple grove, creating a picturesque setting in every season.",
+        "image": "./Residency/house13.avif"
+    }
+]

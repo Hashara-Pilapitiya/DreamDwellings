@@ -1,0 +1,198 @@
+/* left side */
+.c-container {
+    justify-content: space-between;
+    gap: 12rem;
+}
+
+.c-container div {
+    flex: 1;
+}
+
+.c-right {
+    width: 100%;
+}
+
+.c-left .contacts {
+    letter-spacing: normal;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.c-left .primaryText {
+    letter-spacing: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: orange;
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.c-left .secondoryText {
+    color: silver;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.contactMode {
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.contactMode .row {
+    gap: 1.5rem;
+}
+
+.mode {
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+
+.mode .icon1 {
+    color: var(--blue-color);
+    background-color: rgb(217, 217, 244);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.mode .button {
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.mode:hover {
+    scale: 1;
+    box-shadow: var(--shadow);
+}
+
+.mode .button:hover {
+    background: rgb(244, 244, 184);
+}
+
+.mode >:nth-child(1) {
+    width: 100%;
+    gap: 1.6rem;
+}
+
+.mode .detail .call {
+    color: var(--primary-color);
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+.mode .detail .number {
+    color: var(--black-color);
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+
+
+/* right side */
+.c-container .image-container {
+    border: 8px solid rgb(232 232 232 / 93%);
+}
+
+.c-container .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    .c-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .c-right {
+        width: 100%;
+    }
+
+    .c-left {
+        width: 100%;
+    }
+
+    .c-left .contacts {
+        font-size: 1.2rem;
+    }
+
+    .c-left .primaryText {
+        font-size: 1.2rem;
+    }
+
+    .c-left .secondoryText {
+        font-size: 0.8rem;
+    }
+
+    .contactMode {
+        margin-top: 1rem;
+    }
+
+    .mode {
+        width: 100%;
+    }
+
+    .mode .button {
+        font-size: 0.8rem;
+    }
+
+    .mode >:nth-child(1) {
+        width: 100%;
+        gap: 1.2rem;
+    }
+
+    .mode .detail .call {
+        font-size: 0.9rem;
+    }
+
+    .mode .detail .number {
+        font-size: 0.7rem;
+    }
+
+    .c-right .image-container {
+        margin-top: 2rem;
+        display: flex;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .c-wrapper {
+        padding: 0 2rem;
+    }
+
+    .c-container {
+        flex-direction: column;
+    }
+
+    .c-right {
+        justify-content: center;
+    }
+
+    .contactMode {
+        width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mode {
+        width: 100%;
+    }
+
+}
+
+

@@ -1,0 +1,102 @@
+.v-container .image-container {
+    border: 8px solid rgb(232 232 232 / 93%);
+}
+
+.v-container div {
+    flex: 1;
+}
+
+.v-right {
+    gap: 0.5rem;
+}
+
+.v-right .values {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.v-right .secondoryText {
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.accordion {
+    margin-top: 2rem;
+    border: none;
+}
+
+.accordionItem {
+    background: white;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.accordionItem.expanded {
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+}
+
+.accordionButton {
+    background: white;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.icon svg {
+    fill: var(--blue-color);
+}
+
+.accordionButton .primaryText {
+    color: navy;
+    font-size: 1.1rem;
+}
+
+.accordionItemPanel .secondoryText {
+    word-spacing: 1px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 1024px) {
+   /* .v-container .image-container {
+        display: flex;
+    } */
+    .v-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .v-right .secondoryText {
+        font-size: 0.9rem;
+    }
+
+    .accordionButton .primaryText {
+        font-size: 0.7rem;
+    }
+
+    .v-right .icon {
+        font-size: 1rem;
+    }
+
+    .accordionItemPanel .secondoryText {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+

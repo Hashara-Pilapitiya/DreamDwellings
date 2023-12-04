@@ -1,0 +1,22 @@
+.inner-container {
+    gap: 1.5rem;
+    background: rgb(93, 48, 136);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1.5px solid var(--black-color);
+    text-align: center;
+}
+
+.inner-container .primaryText {
+    letter-spacing: 1px;
+}
+
+.inner-container .secondoryText {
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+.inner-container .button {
+    border: 2px solid white;
+}

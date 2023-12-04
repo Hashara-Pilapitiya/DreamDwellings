@@ -1,0 +1,60 @@
+.f-container {
+    justify-content: space-between;
+    border-top: 0.6px solid rgba(0, 0, 0, 0.148);
+}
+
+.f-left {
+    gap: 1rem;
+}
+
+.f-left .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoText h3 {
+    color: var(--black-color);
+    font-style: italic;
+}
+
+.logoText span {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-family: 'Dancing Script, cursive';
+    font-style: normal;
+}
+
+.f-left .secondoryText,
+.f-right .secondoryText {
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.f-right .secondoryText {
+    padding-top: 0.5rem;
+}
+
+.f-menu {
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+
+.f-menu span {
+    color: navy;
+}
+
+
+
+@media (max-width: 1024px) {
+    .f-container {
+        justify-content: center;
+    }
+
+    .f-container div {
+        align-items: center !important;
+        text-align: center;
+    }
+}

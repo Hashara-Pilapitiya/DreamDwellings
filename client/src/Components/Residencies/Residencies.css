@@ -1,0 +1,54 @@
+.r-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.r-head {
+    margin-bottom: 2rem;
+}
+
+.r-head .best {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.swiper-horizontal {
+    overflow: hidden;
+}
+
+.r-button {
+    gap: 1rem;
+}
+
+.r-button button {
+    font-size: 1.2rem;
+    padding: 0.2rem 0.8rem;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.r-button button:hover {
+    font-size: 1.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .r-container .r-head {
+        align-items: center;
+    } 
+
+    .r-card img {
+        max-width: 100rem;
+    }
+
+    .r-card .secondoryText {
+        width: 100%;
+        letter-spacing: 0.5px;
+    }
+}
+
+  

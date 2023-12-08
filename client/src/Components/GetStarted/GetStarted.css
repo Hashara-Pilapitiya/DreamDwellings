@@ -1,6 +1,6 @@
 .inner-container {
     gap: 1.5rem;
-    background: rgb(93, 48, 136);
+    background: #00415a;
     padding: 2rem;
     border-radius: 10px;
     border: 1.5px solid var(--black-color);

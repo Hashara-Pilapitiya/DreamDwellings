@@ -3,7 +3,7 @@ import './Header.css';
 import Logo from '../../Assets/Logos/logo01.png';
 import { HiMenu } from "react-icons/hi";
 import OutsideClickHandler from 'react-outside-click-handler';
-import useHeaderColor from '../../Hooks/UseHeaderColor';
+import useHeaderColor from '../../Hooks/useHeaderColor';
 import { Link, NavLink } from 'react-router-dom';
 
 

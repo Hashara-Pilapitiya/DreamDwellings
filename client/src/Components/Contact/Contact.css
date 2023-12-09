@@ -73,7 +73,7 @@
 }
 
 .mode .button:hover {
-    background: rgb(244, 244, 184);
+    background: #c1e8f8;
 }
 
 .mode >:nth-child(1) {

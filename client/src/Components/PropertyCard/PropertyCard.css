@@ -35,3 +35,20 @@
     rgba(136, 160, 255, 0.46) 217.91%);
     box-shadow: 0px 23px 21px -8px #c6e3ee;
 }
+
+
+
+@media (max-width: 768px) {
+    .r-container .r-head {
+        align-items: center;
+    } 
+
+    .r-card img {
+        max-width: 100rem;
+    }
+
+    .r-card .secondoryText {
+        width: 100%;
+        letter-spacing: 0.5px;
+    }
+}

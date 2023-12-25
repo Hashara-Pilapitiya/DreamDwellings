@@ -1,6 +1,7 @@
 import React from 'react';
 import './PropertyCard.css';
 import { IoHeartSharp } from "react-icons/io5";
+import {truncate} from 'lodash';
 
 const PropertyCard = ( {card} ) => {
   return (
@@ -12,9 +13,9 @@ const PropertyCard = ( {card} ) => {
 
         <span style={{color: 'orange', fontSize: '1.2rem', fontWeight: '700'}}>$<span style={{color: 'black', fontWeight: '700', fontSize: '1.2rem'}}>{card.price}</span></span>
 
-        <span style={{color: '#000080', fontSize: '1.5rem', fontWeight: '700', width: '15rem'}}>{card.name}</span>
+        <span style={{color: '#000080', fontSize: '1.5rem', fontWeight: '700', width: '15rem'}}>{truncate(card.title, {length: 15})}</span>
 
-        <span className='secondoryText'>{card.detail}</span>
+        <span className='secondoryText'>{truncate(card.description, {length: 80})}</span>
 
     </div>
   )

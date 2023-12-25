@@ -56,9 +56,9 @@
     .h-menu {
         z-index: 99;
         position: absolute;
-        right: 80px;
+        right: 100px;
         top: 3rem;
-        background: orange;
+        background: #00415a;
         flex-direction: column;
         font-weight: 700;
         gap: 2rem;

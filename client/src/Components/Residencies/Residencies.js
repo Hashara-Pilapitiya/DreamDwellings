@@ -7,6 +7,7 @@ import { sliderSettings } from '../../Utils/Common';
 import PropertyCard from '../PropertyCard/PropertyCard';
 
 const Residencies = () => {
+
   return (
     <section className='r-wrapper' id='residencies'>
 

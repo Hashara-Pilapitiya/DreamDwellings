@@ -2,10 +2,14 @@ import React from 'react';
 import './PropertyCard.css';
 import { IoHeartSharp } from "react-icons/io5";
 import {truncate} from 'lodash';
+import { useNavigate } from 'react-router-dom';
 
 const PropertyCard = ( {card} ) => {
+
+  const navigate = useNavigate();
+
   return (
-    <div className='flexColStart r-card'>
+    <div className='flexColStart r-card' onClick={() => navigate(`../properties/${card.id}`)}>
 
         <IoHeartSharp size={24} color='white' />
 

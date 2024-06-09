@@ -21,9 +21,7 @@ const Properties = () => {
   if(isLoading){
    return(
      <div className='flexCenter' style={{height: '60vh'}}>
-       <PuffLoader 
-       color='#4169e1'
-       />
+       <PuffLoader color='#4169e1' />
      </div>
    )
   }

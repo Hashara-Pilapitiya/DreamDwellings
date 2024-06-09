@@ -8,6 +8,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import { ToastContainer } from 'react-toastify';
 import { ReactQueryDevtools} from 'react-query/devtools';
 import 'react-toastify/dist/ReactToastify.css';
+import Property from './Pages/Property/Property';
 
 
 
@@ -26,7 +27,10 @@ function App() {
 
           <Route element={<Layout />}>
             <Route path="/" element={<Website />} />
-            <Route path='/properties' element={<Properties />} />
+            <Route path='/properties'>
+              <Route index element={<Properties />} />
+              <Route path=':propertyId' element={<Property />} />
+            </Route>
           </Route>
 
         </Routes>

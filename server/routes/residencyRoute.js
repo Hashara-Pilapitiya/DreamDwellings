@@ -1,7 +1,7 @@
 import express from "express";
 import { createResidency } from "../controllers/residencyController.js";
-import {getAllResidencies} from "../controllers/residencyController.js"; 
-import {getResidency} from "../controllers/residencyController.js";
+import { getAllResidencies } from "../controllers/residencyController.js"; 
+import { getResidency } from "../controllers/residencyController.js";
 
 const router = express.Router()
 

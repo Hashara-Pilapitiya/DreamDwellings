@@ -9,6 +9,7 @@ import { FaShower } from "react-icons/fa6";
 import { FaParking } from "react-icons/fa";
 import { FaBed } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
+import Map from '../../Components/Map/Map';
 
 const Property = () => {
 
@@ -95,6 +96,11 @@ const Property = () => {
                     <button className='button'>Book Your Visit</button>
 
                 </div>
+
+                <div className="map">
+                    <Map address={data?.address} city={data?.city} country={data?.country} />
+                </div>
+
             </div>
 
         </div>

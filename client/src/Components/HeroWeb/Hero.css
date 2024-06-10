@@ -3,11 +3,14 @@
     position: relative;
     padding-bottom: 2rem;
     background: var(--primary-color);
+    z-index: 1;
+
 }
 
 .hero-container {
     justify-content: space-around;
     align-items: flex-end;
+    z-index: -1;
 }
 
 /* left side */

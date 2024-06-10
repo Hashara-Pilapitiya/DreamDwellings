@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import './App.css';
 import Website from './Pages/Website';
 import Layout from './Components/Layout/Layout';
@@ -9,14 +9,22 @@ import { ToastContainer } from 'react-toastify';
 import { ReactQueryDevtools} from 'react-query/devtools';
 import 'react-toastify/dist/ReactToastify.css';
 import Property from './Pages/Property/Property';
-
+import { User } from '@auth0/auth0-react';
+import UserDetailContext from './context/UserDetailContext';
 
 
 function App() {
 
   const queryClient = new QueryClient();
 
+  const [userDetails, setUserDetails] = useState({
+    bookings: [],
+    token: null
+  });
+
   return (
+
+    <UserDetailContext.Provider value={{userDetails, setUserDetails}}>
 
     <QueryClientProvider client={queryClient}>
    
@@ -43,6 +51,8 @@ function App() {
     <ReactQueryDevtools initialIsOpen={false} />
 
     </QueryClientProvider>
+
+    </UserDetailContext.Provider>
 
   );
 }

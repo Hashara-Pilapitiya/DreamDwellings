@@ -45,6 +45,15 @@ export const getProperty = async (id) => {
 };
 
 
+export const createUser = async (email) => {
+    try {
+        await api.post(`/user/register`, {email})
+    } catch (error) {
+        toast.error('Something went wrong');
+        throw error;
+    }
+}
+
 
 // http://full-stack-real-estate-youtube.vercel.app/api
 

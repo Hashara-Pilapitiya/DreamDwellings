@@ -1,0 +1,30 @@
+.profile {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.profile-menu {
+    text-decoration: none;
+    position: absolute;;
+}
+
+.profile-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.profile-menu li {
+    padding: 10px 30px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0.3rem
+    
+}
+
+.profile-menu li:hover {
+    background-color: #e9e9e9;
+}

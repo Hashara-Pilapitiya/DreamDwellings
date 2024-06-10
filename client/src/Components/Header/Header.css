@@ -1,4 +1,6 @@
 .h-container {
+    margin-top: -30px;
+    margin-bottom: 33px;
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
